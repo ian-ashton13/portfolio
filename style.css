@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@0,9..40;1,9..40&family=Kanit&display=swap');
+
+body{
+	font-family: 'DM Sans', sans-serif;
+	color: black;
+	margin: 0;
+}
+h1, h2{
+	font-family: 'Kanit', sans-serif;
+	color: #2d6c94;
+}
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+}
+header{
+	background-color: white;
+}
+header img{
+	float: left;
+	margin-left: 60px;
+}
+/*Fit my logo into the header at an appropriate size*/
+.ian-logo{
+	max-width: 275px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	padding: 15px;
+}
+/* Navigation Bar */
+a:link{
+color: white;
+}
+a:visited{
+color: yellow;
+}
+a:hover{
+color: orange;
+}
+a:active{
+color: black;
+}
+nav{
+	background-color: white;
+	border-bottom: 2px solid black;
+}
+.fa-user-circle{
+	text-align: center;
+	font-size: 5em;
+}
+.fa-pie-chart{
+	text-align: center;
+	font-size: 5em;
+}
+.fa-comment{
+	text-align: center;
+	font-size: 5em;
+}
+.button {
+  background-color: skyblue;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  padding: 15px 30px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+#homehero{
+	background-image: url(images/pattern.png);
+	height: 100px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#homehero h1{
+	color: white;
+	font-size: 60px;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	padding-top: 13px;
+	padding-right: 300px;
+	margin: 0;
+}
+.homephoto{
+	float: left;
+	max-width: 75%;
+	height: auto;
+	margin: 10px 0 10px 20px;
+}
+/*footer{
+	clear: both;
+	background-image: url(images/pattern.png);
+	height: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	border-top: 2px solid black;
+	padding: 10px;
+	color: white;
+}*/
+.resume-page{
+	max-width: 800px;
+	margin: 0 auto;
+	border: 2px solid #dddddd;
+}
+.chart-logo{
+	height:  auto;
+	padding-left: 100px;
+	padding-top: 100px;
+}
+
+.footer1000{
+	/*max-width: 1000px;
+	margin: 0 auto;*/
+	clear: both;
+	background-image: url(images/pattern.png);
+	height: 150px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	border-top: 2px solid black;
+	padding: 10px;
+	color: white;
+}
+.footer-bottom{
+	/*max-width: 1000px;
+	margin: 0 auto;*/
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	padding-top: 40px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+}
+nav li{
+	display: inline;
+	padding: 10px;
+	font-size: 25px;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: black;
+}
+nav a:visited{
+	color: black;
+}
+nav a:hover{
+	color: orange;
+}
+nav a:active{
+	color: blue;
+}
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+.fa-bar-chart{
+	font-size: 5em;
+	padding: 5px;
+}
+.preview-image{
+	border: 2px solid black;
+}
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+		font-size: 4em;
+		text-align: center;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
